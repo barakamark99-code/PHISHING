@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f2ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.join {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.google {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.apple {
+  background-color: #000;
+  color: #fff;
+}
+
+.agreement {
+  font-size: 12px;
+  margin: 15px 0;
+  color: #555;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-field .toggle {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  cursor: pointer;
+}
+
+.forgot {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #0073b1;
+  text-decoration: none;
+}
+
+.keep-signed {
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.signin {
+  background-color: #0073b1;
+  color: #fff;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+footer a {
+  color: #555;
+  text-decoration: none;
+}
